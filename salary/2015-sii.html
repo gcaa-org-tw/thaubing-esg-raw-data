@@ -1,0 +1,405 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>公開資訊觀測站</title>
+<link href="css/css1.css" rel="stylesheet" type="text/css" Media="Screen"/>
+<link href="css/print_css1.css" rel="stylesheet" type="text/css" Media="Print"/>
+<link href="css/clickmenu.css"rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript" src="js/mops1.js"></script>
+
+<script type="text/javascript" src="js/jquery-1.1.4.pack.js"></script>
+<script type="text/javascript" src="js/jquery.clickmenu.js"></script>
+
+
+</head>
+<body>
+<center>
+<table border="0"><tr><td align="left">
+<form name='fh' style='margin:0;' action='/mops/web/ajax_autoComplete' method='post' onsubmit='return false;'><input type='hidden' name='firstin' id='firstin' value = '1'><input type='hidden' name='TYPEK' id='TYPEK' value = 'all'><input type='hidden' name='step' id='step' value = '1'><input type='hidden' name='co_id' value = ''><input type='hidden' name = 'funcName' value = 't100sb15'><input type='hidden' name='searchtype' id='searchtype' value = ''><input type='hidden' name='inpuType' id='inpuType' value = 'keyword'><input type='hidden' name='auto-more' id='auto-more' value = ''><input type = 'hidden' name = 'keycon' value = ''><div id='head'><div id='head_02'><a href='/mops/web/index' alt='回首頁'><img src='images/blank.gif' width='232' height='52' border='0'></a></div><div id='head_03'><div id='search_bar'><div id='nav'><a style='color:yellow;text-decoration:none;'>全站搜尋</a></div><div id='search_b1' align='left'><table><tr><td align='left'><input name='keyword' type='text' class='textbox' id='keyword' size='45' oninput="document.getElementById('auto-more').value='';autoComplete(this.form , 'keyword' , 'auto-complete-data' , event);" onkeydown='chkKeyDown(this.form , this , "auto-complete-data" , event);' onkeyUp="document.getElementById('auto-more').value='';autoComplete(this.form , 'keyword' , 'auto-complete-data' , event);" onblur="setTimeout(function(){hideDiv('auto-complete-data');} , 200);" onClick="this.value='';document.getElementById('oldKeyWord').value='';hideDiv('auto-complete-data');" placeholder='請輸入公司代號、簡稱，或報表關鍵字' autocomplete='off'></td><td><input type='button' name='rulesubmit' id='rulesubmit' value=' 搜尋 ' onclick="document.fh.action='/mops/web/autoAction';document.fh.submit();"></td></tr></table></div><div id='search_txt' class='search_b2' style='z-index:1;'><table border='0'><tr><td><div style='background-image: url(images/map01.jpg) ; height: 19px; width:32px;background-position:-161px 0px;'></div></td><td><a href='javascript:void(0);' onClick='document.fh.keyword.value="營收";goaction("營收" , "0");'>營收</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="除權息";goaction("除權息" , "0");'>除權息</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="電子書";goaction("電子書" , "0");'>電子書</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="法說會";goaction("法說會" , "0");'>法說會</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="庫藏股";goaction("庫藏股" , "0");'>庫藏股</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="董監持股";goaction("董監持股" , "0");'>董監持股</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="獨立董事";goaction("獨立董事" , "0");'>獨立董事</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="董監酬金";goaction("董監酬金" , "0");'>董監酬金</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="ETF";goaction("ETF" , "0");'>ETF</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="TDR";goaction("TDR" , "0");'>TDR</a></td></tr></table></div></div></div><div id='head_04'><a href='http://emops.twse.com.tw/emops_all.htm'><img src='images/blank.gif' width='89' height='32' border='0' /></a><p><a href='/mops/web/index'><img src='images/blank.gif' width='89' height='32' border='0' /></a></div></div></form><input type='hidden' id='oldKeyWord'><div id='auto-complete-data'></div><div id='auto-complete-data2'></div><form name='fh2' style='margin:0;' action='' method='post' onsubmit='return false;'><input type='hidden' name='usually' id='usually' value = ''></form><script>window.onload=getMsg;    var MAR = document.querySelector("#marquee");     if(MAR){         var MARS = document.querySelectorAll("#marquee a");         for(var i=0;i<MARS.length;i++){             MARS[i].setAttribute("target","_blank");             MARS[i].setAttribute("style","margin-right:20px");         };         if(MARS.length<1){             MAR.parentNode.innerHTML = "<span style='color:#ff0;'>全站搜尋</span>";             MAR.setAttribute("scrollamount","0")         };     };</script><style>    #marquee,#marquee a{color: #ff0!important;}    #marquee a:hover{color: #ff0!important;text-decoration: none!important;}    #marquee a[href]{text-decoration: underline!important;}</style> 
+
+
+
+<div id="menu" class="clickMenu">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<script>
+			$(document).ready(function() {
+			
+				$('#list').clickMenu();
+				document.getElementById('list').style.display='block';
+			});
+		</script> 
+		<tr>
+			<td id="menu1">
+				<ul id="list" style="display:none;">
+					<li class = "L00_Pop" id="mm0">常用報表
+					</li>
+					<li class = "L00_Pop" id="mm1">基本資料
+					</li>
+					<li class = "L00_Pop" id="mm2">彙總報表
+					</li>
+					<li class = "L00_Pop" id="mm3">股東會及股利
+					</li>
+					<li class = "L00_Pop" id="mm4">公司治理
+					</li>
+					<li class = "L00_Pop" id="mm5">財務報表
+					</li>
+					<li class = "L00_Pop" id="mm6">重大訊息與公告
+					</li>
+					<li class = "L00_Pop" id="mm7">營運概況
+					</li>
+					<li class = "L00_Pop" id="mm8">投資專區
+					</li>
+					<li class = "L00_Pop" id="mm9">認購（售）權證
+					</li>
+					<li class = "L00_Pop" id="mm10">債券
+					</li>
+					<li class = "L00_Pop" id="mm11">資產證券化
+					</li>
+
+				</ul>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+
+
+
+
+<div id="maincontent_in">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td >
+<div id="PageBody">
+<table><tr><td valign="top" style="height:400px">
+<div id="main" >
+
+<!-- 
+	程式名稱:submenu-4.htm
+	程式功能:公司治理
+	修改紀錄:(格式=>西元日期+版次+程式設計師)
+	2019032153vensan:(T88K)增加 t100sb14財務報告附註揭露之員工福利(薪資)資訊
+							   t100sb15非擔任主管職務之全時員工薪資資訊
+	2019010252thomas:(T88K)所有項目順序大調整(與前一版完全不同了)
+    2018100351ivy:(T88K)調整公司治理項下選單連結
+	2018062850awat:(T88G)修改 t93sb05 標題文字
+	2018013149hang:(T88K) 增加 t167sb02 自願揭露退休董事長或總經理回任公司顧問
+	2017073148ivy:(T88K)修改公司治理項下連結之各項報表
+	2017022147oliver:(T88K)t114sb07改字，配發改成分派，紅利改成酬勞
+	2016123046oliver:(T88K)
+		1.「董事及監察人出(列)席董事會及進修情形與獨立董事兼任情形(個別) 」t100sb07移至「內部控制專區」及「獨立董監事兼任情形彙總表」之間，並更名為「董事及監察人出(列)席董事會及進修情形與暨獨立董事現職、經歷及兼任情形(個別) 」。
+		2. 「獨立董監事兼任情形彙總表」t93sc01_1更名為「獨立董監事現職、經歷及兼任情形彙總表」
+		3.  「董事及監察人出(列)席董事會及進修情形」t93sc03_1更名為「董事及監察人出(列)席董事會及進修情形彙總表」
+		4. 「財務報告經監察人承認情形」刪除。(與彙總報表／財務報表重複)
+		5. 「採累積投票制、全額連記法、候選人提名制選任董監事及當選資料彙總表」更名為「採候選人提名制、累積投票制、全額連記法選任董監事及當選資料彙總表」
+		6. 「採候選人提名制、累積投票制、全額連記法選任董監事及當選資料彙總表」t144sb11、「股東行使提案權情形彙總表」t144sb09及「股東會議案決議情形」t150sb04移至「彙總報表／股東會及股利」項下，依前三項順序介於「股東會公告」及「股利分派情形」之間
+	2016082445money:(T88K)修改原為「實收資本額達新臺幣50億元以上應採電子投票之上市上櫃公司，尚未採候選人提名制選舉全體董事、監察人之公司名單」，改為「實收資本額達新臺幣20億元以上應採電子投票之上市上櫃公司，尚未採候選人提名制選舉全體董事、監察人之公司名單」文字
+	2016042944awat:(T88K) add t114sb07員工酬勞及董事、監察人酬勞資訊彙總表
+	2016022643thomas:(T88K)新增「稅後損益與董監酬金變動之關聯性與合理性」
+	2015083142awat:(T88K)前五項配合需求修改增加104年的資料
+	2015051841:thomas:(T88K)修改原為「企業社會責任報告書/永續報告書」改為「企業社會責任報告書」。
+	2015022640edward:()增加t150sb04
+	2014121139thomas:(T88K)修改原為「獨立董監事兼任情形」改為「獨立董監事兼任情形彙總表」。
+	2014120939thomas:(T88K)修改原為「董事會出席與獨立董事兼任情形(個別)」改為「董事及監察人出(列)席董事會及進修情形與獨立董事兼任情形(個別)」。
+	2014092938thomas:(T88K)修改原為[公司治理自評報告]改為[公司治理自評報告(自2014/10/13起停止上傳)]
+	2014090937peggy:(T88K)新增符合主管機關規定應強制採電子投票之上市櫃公司執行情形彙總表-103年
+	2014082036andy:(T88K)新增員工福利政策及權益維護措施揭露-個別公司查詢,彙總資料查詢
+	2014081835andy:(T88K)新增章程明訂全體董事(含獨立董事)選舉應採候選人提名制之上市櫃公司彙總表-102年、103年,於股東常會採行逐案票決之上市櫃公司彙總表-102年、103年,提供英文議事手冊之上市櫃公司彙總表-102年、103年
+	2014062634kevin:(T88K)新增企業社會責任報告書/永續報告書
+	2014032133awat:(T88K)修改 101年度起股東會應採行電子投票....公司名單  功能名稱及檔案
+	2013101431awat:(T88K)修改 選單名稱及對應檔案
+	2013101431awat:(T88K)修改 股東會應採行電子投票名單 選單
+	2013061329awat:(T88K)新增 「薪資報酬委員會運作效益之衡量與評估」調查報告
+	2013050228leo:(T88K)
+	2013030627leo:(T88K)新增t167sb01 依據「上市上櫃公司治理實務守則」第24條規定公告彙總表
+	2012122826awat:(T88K)add 101年度起股東會應採行電子投票，且未修正章程採候選人提名制選舉董事、監察人之上市上櫃公司名單
+	2012071123lucas:(T88K)移除公司採行通訊投票之情形shareholder_w by Nina	
+	2012062522lucas:(T88K)於公司冶理底下增下一選項-符合主管機關規定應強制採電子投票之上市櫃公司執行情形彙總表
+	2012020221Llucas:(T88K)更改內部控制專區階層位置
+	2012020120Llucas:(T88G)新增內部控制專區
+	2011110219:tobey:(T88K)新增t100sb10
+	2011110218:tobey:(T88K)新增t100sb10
+    2011072014:awat:(T88K)t144sb11修改標題
+-->
+<table width="176" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td width="176"><span style="cursor: pointer; font-weight: bold; font-size: 13px;" onclick="showhide('level4','img-4')" id="menu1"> <img src="images/minus4.gif" id="img-4"/><a href="#">公司治理</a> </span> </td>
+</tr>
+<tr style="display: inline;" id="level4">
+	<td style="padding-left: 10px;">
+		<!--公司治理結構-->
+		<img src="images/minus3.gif" id="img-4001"/>
+			<a onclick="showhide('level-4001','img-4001')" target="_self" href="#">公司治理結構</a><br/>
+			<span style="display: none;" id="level-4001">
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t100sb01_1">公司治理組織架構部分</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t100sb03_1">設立功能性委員會及組織成員</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t144sb10_w">年報前十大股東相互間關係彙總</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t144sb08">董事長兼任總經理情形彙總表</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t100sb04_1">訂定公司治理之相關規程規則</a><br/>
+				</span>
+			</span>
+		<!--董事及監察人相關資訊-->
+		<img src="images/minus3.gif" id="img-4002"/>
+			<a onclick="showhide('level-4002','img-4002')" target="_self" href="#">董事及監察人相關資訊</a><br/>
+			<span style="display: none;" id="level-4002">
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t100sb07">董事及監察人出(列)席董事會及進修情形暨獨立董事現職、經歷及兼任情形(個別)</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t93sc01_1">獨立董事現職、經歷及兼任情形彙總表</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t93sc03_1">董事及監察人出(列)席董事會及進修情形彙總表</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t93sb05">獨立董事設置情形</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t119sb07">員工酬勞及董事、監察人酬勞資訊彙總表</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t119sb04">董監事酬金相關資訊</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t119sb05">公司年度稅後虧損惟董監事酬金總金額或平均每位董監事酬金卻增加</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t119sb06">稅後損益與董監酬金變動之關聯性與合理性</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="IRB100_q1">董事、監察人持股不足法定成數彙總表</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t135sb03">董事及監察人投保責任險情形</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t167sb01">依據「上市上櫃公司治理實務守則」第24條規定公告彙總表</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t167sb02">自願揭露退休董事長或總經理回任公司顧問</a><br/>
+				</span>
+			</span>
+		<!--股東常會相關之公司治理統計資訊-->
+		<img src="images/minus3.gif" id="img-4003"/>
+			<a onclick="showhide('level-4003','img-4003')" target="_self" href="#">股東常會相關之公司治理統計資訊</span></a><br/>
+			<span style="display: none;" id="level-4003">
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="http://cgc.twse.com.tw/nomination/chPage">採候選人提名制之上市櫃公司</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="http://cgc.twse.com.tw/enProcedureManual/chPage">股東常會提供英文議事手冊之上市櫃公司</a><br/>
+				</span>
+			</span>
+		<!--企業社會責任相關資訊-->
+		<img src="images/minus3.gif" id="img-4004"/>
+			<a onclick="showhide('level-4004','img-4004')" target="_self" href="#">企業社會責任相關資訊</a><br/>
+			<span style="display: none;" id="level-4004">
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t152sb01">溫室氣體排放及減量資訊</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t100sb11">企業社會責任報告書</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t114sb07">分派員工酬勞之經理人姓名及分派情形</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/minus3.gif" id="img-4004001"/>
+					<a onclick="showhide('level-4004001','img-4004001')" target="_self" href="#">員工福利及薪酬統計相關資訊</a><br/>
+					<span style="display: none;" id="level-4004001">
+						<span style="padding-left: 35px;">
+							<img src="images/pointer.gif"/><a target="_self" href="t100sb14">財務報告附註揭露之員工福利(薪資)資訊</a><br/>
+						</span>
+						<span style="padding-left: 35px;">
+							<img src="images/pointer.gif"/><a target="_self" href="t100sb15">非擔任主管職務之全時員工薪資資訊</a><br/>
+						</span>
+						<span style="padding-left: 35px;">
+							<img src="images/minus3.gif" id="img-4004001001"/>
+							<a onclick="showhide('level-4004001001','img-4004001001')" target="_self" href="#">員工福利政策及權益維護措施揭露</a><br/>
+							<span style="display: none;" id="level-4004001001">
+								<span style="padding-left: 55px;">
+									<img src="images/pointer.gif"/><a target="_self" href="t100sb12">個別公司查詢</a><br/>
+								</span>
+								<span style="padding-left: 55px;">
+									<img src="images/pointer.gif"/><a target="_self" href="t100sb13">彙總資料查詢</a><br/>
+								</span>
+							</span>
+						</span>
+					</span>
+				</span>
+			</span>
+		<!--內部控制專區-->
+		<img src="images/minus3.gif" id="img-4005"/>
+			<a onclick="showhide('level-4005','img-4005')" target="_self" href="#">內部控制專區</a><br/>
+			<span style="display: none;" id="level-4005">
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t06sg20">內控聲明書公告</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t06hsg20">內部控制專案審查報告</a><br/>
+				</span>
+			</span>
+		<!--投保中心對公司起訴或公司已依規發布重大訊息之訴訟案件-->
+		<img src="images/minus3.gif" id="img-4006"/>
+			<a onclick="showhide('level-4006','img-4006')" target="_self" href="#">投保中心對公司起訴或公司已依規發布重大訊息之訴訟案件</a><br/>
+			<span style="display: none;" id="level-4006">
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="sfipc_w">投保中心現正進行中之團體求償相關訴訟案件</a><br/>
+				</span>
+				<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t144sb07">公司已依規發布重大訊息之訴訟案件</a><br/>
+				</span>
+			</span>
+	</td>
+</tr>
+</table>
+
+
+</div>
+</td><td valign="top">
+
+<div id='sw'><div id='pic' style="cursor: hand; background: url(images/map2.gif) no-repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; height: 324px; width:14px;background-position:-542px 0px;" onclick="closex();"></div></div>
+</td><td valign="top">
+<div id="nav02">
+<div class="t0"></div>
+<div class="t01" id='caption'><br>&nbsp;&nbsp;&nbsp;非擔任主管職務之全時員工薪資資訊</div>
+<div id="bar01">
+
+<form id="form1" name="form1" action="/mops/web/ajax_t100sb15" onsubmit="return false;" method="post">
+<input type="hidden" id="subMenuID" value="[4,4004,4004001]">
+
+<table width="775" border="0" cellpadding="0" cellspacing="0" >
+<tr>
+	
+	<td class="bar01a" valign="top"><div style="background: url(images/map2.gif) no-repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; height: 52px; width:6px;background-position:1px 0px;"></div></td>
+	<td class="bar01b" id="search" valign="top"><input type='hidden' name='step' value='1'><input type='hidden' name='firstin' value='1'><table><tr><td align=left nowrap style='font-size:12px !important;'><img src='images/icon_nav.gif' hspace='3'>市場別：<select name='TYPEK' onchange='step.value="2";ajax1(this.form,"search");'><option value='sii' selected='selected'>上市</option><option value='otc'>上櫃</option></select><img src='images/icon_nav.gif' hspace='3'>年度：<input name='RYEAR' type='text' class='textbox' id='RYEAR' value='109' size='3' maxlength='3' onkeydown="{if(event.keyCode==13){ajax1(document.form1,'table01');}}"/><img src='images/icon_nav.gif' hspace='3'>產業類別：<select name='code' onchange=''><option></option><option value='01' selected='selected'>水泥工業</option><option value='02'>食品工業</option><option value='03'>塑膠工業</option><option value='04'>紡織纖維</option><option value='05'>電機機械</option><option value='06'>電器電纜</option><option value='21'>化學工業</option><option value='22'>生技醫療業</option><option value='07'>化學生技醫療</option><option value='08'>玻璃陶瓷</option><option value='09'>造紙工業</option><option value='10'>鋼鐵工業</option><option value='11'>橡膠工業</option><option value='12'>汽車工業</option><option value='24'>半導體業</option><option value='25'>電腦及週邊設備業</option><option value='26'>光電業</option><option value='27'>通信網路業</option><option value='28'>電子零組件業</option><option value='29'>電子通路業</option><option value='30'>資訊服務業</option><option value='31'>其他電子業</option><option value='13'>電子工業</option><option value='23'>油電燃氣業</option><option value='14'>建材營造</option><option value='15'>航運業</option><option value='16'>觀光事業</option><option value='17'>金融保險業</option><option value='18'>貿易百貨</option><option value='19'>綜合企業</option><option value='20'>其他</option><option value='91'>存託憑證</option></select>(空白表查詢全部)</table></td>
+	<td align="right" class="bar01b">&nbsp;</td>
+	<td align="right" class="bar01b" valign="top">
+		<table border="0" cellspacing="0" cellpadding="2">
+		<tr>
+			<td>&nbsp;&nbsp;&nbsp;</td>
+			<td><div id="search_bar1">
+				<div class="search">
+				
+				
+				<input type="button" value=" 查詢 " onclick="ajax1(document.form1,'table01');"/>
+				</div>
+			</div></td>
+		</tr>
+		</table>
+	</td>
+	
+	<td class="bar01a" valign="top"><div style="background: url(images/map2.gif) no-repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; height: 52px; width:6px;background-position:-72px 0px;"></div></td>
+</tr>
+</table>
+</form>
+
+</div>
+
+
+<div id="table_ess">
+  <table border="0" cellspacing="0" cellpadding="2">
+    <tr>
+      
+	  
+	  <th align="left" width="80px"><a href="javascript:print();"><img src="images/bu_01.gif" alt="列印網頁" border=0></img></a></th><th width="80px"><a href="javascript:outputNewWindow();"><img src="images/bu_02.gif" alt="開新視窗" border=0></img></a></th><th width="80px"><a href="javascript:reportError();"><img src="images/bu_04.gif" alt="問題回報" border=0></img></a></th><th width="80px"><a id='ajax_back_button' href="javascript:void(0)" onclick="ajax_back();" style="visibility:hidden;"></a></th>
+      <th><table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+           
+		  <td width="900px"></td>
+        </tr>
+      </table></th>
+    </tr>
+  </table>
+  </div>
+  
+<div id="zoom"><div id="table01"
+
+
+
+
+><br><center><font color='red'>查無資料！
+</font></center>
+</div>
+  <br></div>
+</td></tr></table>
+</DIV></tr>
+</table>
+</div>
+
+
+<div id="footer">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <th>
+		<div class="text1" id="text1" align="center">
+			<a href='https://www.stockvote.com.tw/' target='_blank'>電子投票</a>│
+			<a href='http://www.sfb.gov.tw/Layout/main_ch/index.aspx?frame=5' target='_blank'>不繼續公開發行</a>│
+			<a href='/server-java/t39sb01' target='_blank'>市場公告</a>│
+			
+			
+			<a href='https://www.sfi.org.tw/cga/cga1' target='_blank'>公司治理評鑑</a>│
+
+
+			
+			
+			
+			<a href='/mops/web/t146sb08'>網站地圖</a>│
+			<a href='/nas/MOPS_HandBook.doc' target='_MOPS_handbook'>網站使用說明</a>
+			<div class="text1" id="text1" align="center" height="80">
+			<a href=#>投資人服務中心(02)2792-8188</a> <u><a href='http://Suggestionbox.twse.com.tw' target='_blank'>聯絡我們</a></u>
+			</div>
+
+			
+			
+			
+			
+			
+			
+			
+			
+		</div>
+	</th>
+  </tr>
+</table>
+</div>
+</td></tr></table></center>
+</body>
+
+
+
+<script>
+function checkAutoRunScript(){
+	if (document.autoForm!=null && document.autoForm!=undefined && document.autoForm.run.value==''){
+		document.autoForm.run.value='Y';
+		ajax1(document.autoForm,'table01');
+	}
+
+	if (document.autoRunScript!=null && document.autoRunScript!=undefined && document.autoRunScript.run.value!=''){
+		var s = document.autoRunScript.run.value;
+		document.autoRunScript.run.value = '';
+		new function(){
+			eval(s);
+		};
+	}
+
+}
+
+setInterval("checkAutoRunScript()",100);
+</script>
+</html>
