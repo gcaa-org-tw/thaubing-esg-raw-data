@@ -1,0 +1,1286 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>公開資訊觀測站</title>
+<link href="css/css1.css" rel="stylesheet" type="text/css" Media="Screen"/>
+<link href="css/print_css1.css" rel="stylesheet" type="text/css" Media="Print"/>
+<link href="css/clickmenu.css"rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript" src="js/mops1.js"></script>
+
+<script type="text/javascript" src="js/jquery-1.1.4.pack.js"></script>
+<script type="text/javascript" src="js/jquery.clickmenu.js"></script>
+
+
+</head>
+<body>
+
+<center>
+<table border="0"><tr><td align="left">
+<form name='fh' style='margin:0;' action='/mops/web/ajax_autoComplete' method='post' onsubmit='return false;'><input type='hidden' name='firstin' id='firstin' value = '1'><input type='hidden' name='TYPEK' id='TYPEK' value = 'all'><input type='hidden' name='step' id='step' value = '1'><input type='hidden' name='co_id' value = ''><input type='hidden' name = 'funcName' value = 'stapap1'><input type='hidden' name='searchtype' id='searchtype' value = ''><input type='hidden' name='inpuType' id='inpuType' value = 'keyword'><input type='hidden' name='auto-more' id='auto-more' value = ''><input type = 'hidden' name = 'keycon' value = ''><div id='head'><div id='head_02'><a href='/mops/web/index' alt='回首頁'><img src='images/blank.gif' width='232' height='52' border='0'></a></div><div id='head_03'><div id='search_bar'><div id='nav'><a style='color:yellow;text-decoration:none;'>全站搜尋</a></div><div id='search_b1' align='left'><table><tr><td align='left'><input name='keyword' type='text' class='textbox' id='keyword' size='45' oninput="document.getElementById('auto-more').value='';autoComplete(this.form , 'keyword' , 'auto-complete-data' , event);" onkeydown='chkKeyDown(this.form , this , "auto-complete-data" , event);' onkeyUp="document.getElementById('auto-more').value='';autoComplete(this.form , 'keyword' , 'auto-complete-data' , event);" onblur="setTimeout(function(){hideDiv('auto-complete-data');} , 200);" onClick="this.value='';document.getElementById('oldKeyWord').value='';hideDiv('auto-complete-data');" placeholder='請輸入公司代號、簡稱，或報表關鍵字' autocomplete='off'></td><td><input type='button' name='rulesubmit' id='rulesubmit' value=' 搜尋 ' onclick="document.fh.action='/mops/web/autoAction';document.fh.submit();"></td></tr></table></div><div id='search_txt' class='search_b2' style='z-index:1;'><table border='0'><tr><td><div style='background-image: url(images/map01.jpg) ; height: 19px; width:32px;background-position:-161px 0px;'></div></td><td><a href='javascript:void(0);' onClick='document.fh.keyword.value="營收";goaction("營收" , "0");'>營收</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="除權息";goaction("除權息" , "0");'>除權息</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="電子書";goaction("電子書" , "0");'>電子書</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="法說會";goaction("法說會" , "0");'>法說會</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="庫藏股";goaction("庫藏股" , "0");'>庫藏股</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="董監持股";goaction("董監持股" , "0");'>董監持股</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="獨立董事";goaction("獨立董事" , "0");'>獨立董事</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="董監酬金";goaction("董監酬金" , "0");'>董監酬金</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="ETF";goaction("ETF" , "0");'>ETF</a><a href='javascript:void(0);' onClick='document.fh.keyword.value="TDR";goaction("TDR" , "0");'>TDR</a></td></tr></table></div></div></div><div id='head_04'><a href='http://emops.twse.com.tw/emops_all.htm'><img src='images/blank.gif' width='89' height='32' border='0' /></a><p><a href='/mops/web/index'><img src='images/blank.gif' width='89' height='32' border='0' /></a></div></div></form><input type='hidden' id='oldKeyWord'><div id='auto-complete-data'></div><div id='auto-complete-data2'></div><form name='fh2' style='margin:0;' action='' method='post' onsubmit='return false;'><input type='hidden' name='usually' id='usually' value = ''></form><script>window.onload=getMsg;    var MAR = document.querySelector("#marquee");     if(MAR){         var MARS = document.querySelectorAll("#marquee a");         for(var i=0;i<MARS.length;i++){             MARS[i].setAttribute("target","_blank");             MARS[i].setAttribute("style","margin-right:20px");         };         if(MARS.length<1){             MAR.parentNode.innerHTML = "<span style='color:#ff0;'>全站搜尋</span>";             MAR.setAttribute("scrollamount","0")         };     };</script><style>    #marquee,#marquee a{color: #ff0!important;}    #marquee a:hover{color: #ff0!important;text-decoration: none!important;}    #marquee a[href]{text-decoration: underline!important;}</style> 
+
+
+
+<div id="menu" class="clickMenu">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<script>
+			$(document).ready(function() {
+			
+				$('#list').clickMenu();
+				document.getElementById('list').style.display='block';
+			});
+		</script> 
+		<tr>
+			<td id="menu1">
+				<ul id="list" style="display:none;">
+					<li class = "L00_Pop" id="mm0">常用報表
+					</li>
+					<li class = "L00_Pop" id="mm1">基本資料
+					</li>
+					<li class = "L00_Pop" id="mm2">彙總報表
+					</li>
+					<li class = "L00_Pop" id="mm3">股東會及股利
+					</li>
+					<li class = "L00_Pop" id="mm4">公司治理
+					</li>
+					<li class = "L00_Pop" id="mm5">財務報表
+					</li>
+					<li class = "L00_Pop" id="mm6">重大訊息與公告
+					</li>
+					<li class = "L00_Pop" id="mm7">營運概況
+					</li>
+					<li class = "L00_Pop" id="mm8">投資專區
+					</li>
+					<li class = "L00_Pop" id="mm9">認購（售）權證
+					</li>
+					<li class = "L00_Pop" id="mm10">債券
+					</li>
+					<li class = "L00_Pop" id="mm11">資產證券化
+					</li>
+
+				</ul>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+
+
+
+
+<div id="maincontent_in">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td >
+<div id="PageBody">
+<table><tr><td valign="top" style="height:400px">
+<div id="main" >
+
+<!-- 
+	程式名稱:submenu-1.htm
+	程式功能:基本資料 左邊tree結構
+	修改紀錄:(格式=>西元日期+版次+程式設計師)
+	2016062822:thomas(T88K)修改t111sb02標題文字
+	2013100421:kevin(T88K)t158sb04==>t158sb04_new
+	2013061818:kevin:員工認股權憑證欄位順序調整
+	2013053117:leo:(T88K)新增t158sb05_new
+	2013051416:kevin:(T88K)修改t158sb02標題文字
+	2012101515leo:(T88K)庫藏股修改文字,修改連結
+	2012062814lucas(T88K)修改文字
+	2012051713tobey:(T88K)新增t160sb01 t160sb02
+	2011112912tobey:(T88K)新增t158sb01換掉t47sa17 新增t158sb02換掉t70sb01 和draco改的t158sb03 t158sb04
+	2011031411:eddie:新增外國發行人之股票、臺灣存託憑證、債券流通情形查詢
+-->
+<table width="176" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td width="176"><span style="cursor: pointer; font-weight: bold; font-size: 13px;" onclick="showhide('level1','img-1')" id="menu1"> <img src="images/minus4.gif" id="img-1"/><a href="#">基本資料</a> </span> </td>
+</tr>
+<tr style="display: inline;" id="level1">
+	<td style="padding-left: 10px;">
+		<img src="images/pointer.gif"/><a class="01" target="_self" href="t146sb05">精華版3.0</a><br/>
+		<img src="images/pointer.gif"/><a target="_self" href="t05st03">公司基本資料</a><br/>
+		<img src="images/minus3.gif" id="img-1002"/><a onclick="showhide('level-1002','img-1002')" target="_self" href="#">重要子公司基本資料</a><br/>
+		<span style="display: none;" id="level-1002">
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t79sb02">重要子公司基本資料</a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t79sb03">重要子公司異動說明</a><br/>
+			</span>
+
+		</span>
+		<img src="images/pointer.gif"/><a target="_self" href="t102sb01">被投資控股公司基本資料</a><br/>
+
+		<img src="images/minus3.gif" id="img-1004"/><a onclick="showhide('level-1004','img-1004')" href="#">電子書</a><br/>
+		<span style="display: none;" id="level-1004">
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t57sb01_q1">財務報告書</a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t57sb01_q2">財務預測書</a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t57sb01_q3">公開說明書</a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t57sb01_q4">公開收購說明書(101<br/><span style="padding-left: 32px;">年7月後請至「公開</span><br/><span style="padding-left: 32px;">收購專區」查詢)</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t57sb01_2">公開招募說明書</a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t57sb01_q5">年報及股東會相關資<br/><span style="padding-left: 32px;">料(含存託憑證資料)</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="WDLReader">WDL Reader(請至威<br/><span style="padding-left: 32px;">鋒數位軟體下載區下</span><br/><span style="padding-left: 32px;">載)</span></a><br/>
+			</span>
+		</span>
+
+
+		<img src="images/minus3.gif" id="img-1005"/> <a onclick="showhide('level-1005','img-1005')" target="_self" href="#">董監大股東持股、質<br/><span style="padding-left: 22px;">押、轉讓</span></a><br/>
+		<span style="display: none;" id="level-1005">
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="stapap1_all">董事、監察人、經理<br/><span style="padding-left: 32px;">人及大股東持股餘額</span><br/><span style="padding-left: 32px;">彙總表</span></a><br/>
+			</span>
+
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="stapap1">董監事持股餘額明細<br/><span style="padding-left: 32px;">資料</span></a><br/>
+			</span>
+
+			<span style="padding-left: 15px;">
+				<img src="images/minus3.gif" id="img-1005003"/><a onclick="showhide('level-1005003','img-1005003')" target="_self" href="#">內部人持股轉讓事前<br/><span style="padding-left: 32px;">申報表(個別公司)</span></a><br/>
+				<span style="display: none;" id="level-1005003">
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="t56sb21_q1">持股轉讓日報表</a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="t56sb21_q2">持股未轉讓日報<br/><span style="padding-left: 50px;">表</span></a><br/>
+					</span>
+				</span>
+			</span>
+
+			<span style="padding-left: 15px;">
+				<img src="images/minus3.gif" id="img-1005004"/><a onclick="showhide('level-1005004','img-1005004')" target="_self" href="#">內部人持股轉讓事前<br/><span style="padding-left: 32px;">申報彙總表</span></a><br/>
+				<span style="display: none;" id="level-1005004">
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="t56sb21_q3">持股轉讓日報表</a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="t56sb21_q4">持股未轉讓日報<br/><span style="padding-left: 50px;">表</span></a><br/>
+					</span>
+				</span>
+			</span>
+
+			<span style="padding-left: 15px;">
+				<img src="images/minus3.gif" id="img-1005005"/><a onclick="showhide('level-1005005','img-1005005')" target="_self" href="#">董監事股權異動統計<br/><span style="padding-left: 32px;">彙總表</span></a><br/>
+				<span style="display: none;" id="level-1005005">
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="IRB160">公司增減資表</a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="IRB170">新公司彙總表</a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="IRB140">轉讓持股達100萬<br/><span style="padding-left: 52px;">股以上者彙總表</span></a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="IRB150">取得股份達100萬<br/><span style="padding-left: 52px;">股以上者彙總表</span></a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="IRB190">董事、監察人質<br/><span style="padding-left: 52px;">權設定在100萬股</span><br/><span style="padding-left: 52px;">以上彙總表</span></a><br/>
+					</span>
+
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="IRB200">董事、監察人質<br/><span style="padding-left: 52px;">權解除在100萬股</span><br/><span style="padding-left: 52px;">以上彙總表</span></a><br/>
+					</span>
+
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="IRB110">董事、監察人、<br/><span style="padding-left: 52px;">經理人及百分之</span><br/><span style="padding-left: 52px;">十以上大股東股</span><br/><span style="padding-left: 52px;">權異動彙總表</span></a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="IRB130">董事、監察人、<br/><span style="padding-left: 52px;">經理人及百分之</span><br/><span style="padding-left: 52px;">十以上大股東質</span><br/><span style="padding-left: 52px;">權設定彙總表</span></a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="IRB180">董事、監察人質<br/><span style="padding-left: 52px;">權設定佔董事及</span><br/><span style="padding-left: 52px;">監察人實際持有</span><br/><span style="padding-left: 52px;">股數彙總表</span></a><br/>
+					</span>
+
+				</span>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="query6_1">內部人持股異動事後<br/><span style="padding-left: 32px;">申報表</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/minus3.gif" id="img-1005007"/><a onclick="showhide('level-1005007','img-1005007')" target="_self" href="#">內部人設質解質彙總<br/><span style="padding-left: 32px;">公告</span></a><br/>
+				<span style="display: none;" id="level-1005007">
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="STAMAK03_q1">依照日期排序</a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="STAMAK03_q2">依照公司代號排<br/><span style="padding-left: 52px;">序</span></a><br/>
+					</span>
+				</span>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="STAMAK03_1">內部人設質解質公告<br/><span style="padding-left: 32px;">(個別公司)</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/minus3.gif" id="img-1005009"/><a onclick="showhide('level-1005009','img-1005009')" target="_self" href="#">股權轉讓資料查詢</a><br/>
+				<span style="display: none;" id="level-1005009">
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="t56sb12_q1">上市公司持股轉<br/><span style="padding-left: 52px;">讓日報表</span></a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="t56sb12_q2">上櫃公司持股轉<br/><span style="padding-left: 52px;">讓日報表</span></a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="t56sb12_q3">興櫃公司持股轉<br/><span style="padding-left: 52px;">讓日報表</span></a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="t56sb12_q4">公開發行公司持<br/><span style="padding-left: 52px;">股轉讓日報表</span></a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="t56sb12_q5">上市公司持股未<br/><span style="padding-left: 52px;">轉讓日報表</span></a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="t56sb12_q6">上櫃公司持股未<br/><span style="padding-left: 52px;">轉讓日報表</span></a><br/>
+					</span>
+					<span style="padding-left: 35px;">
+						<img src="images/pointer.gif"/><a target="_self" href="t56sb12_q7">興櫃公司持股未<br/><span style="padding-left: 52px;">轉讓日報表</span></a><br/>
+					</span>
+				</span>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="IRB100">董事、監察人持股不<br/><span style="padding-left: 32px;">足法定成數彙總表</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="IRB210">董事、監察人持股不<br/><span style="padding-left: 32px;">足法定成數連續達3</span><br/><span style="padding-left: 32px;">個月以上彙總表</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t93sb06">公司董事、監察人及<br/><span style="padding-left: 32px;">持股10%以上大股東</span><br/><span style="padding-left: 32px;">為法人之彙總查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+					<img src="images/pointer.gif"/><a target="_self" href="t93sb06_1">持股10%以上大股東<br/><span style="padding-left: 32px;">最近異動情形</span></a><br/>
+			</span>
+
+		</span>
+<!--
+		<img src="images/minus3.gif" id="img-1006"/><a onclick="showhide('level-1006','img-1006')" href="#">庫藏股(已移至「投資專<br/><span style="padding-left: 18px;">區」項下「庫藏股資訊<br/></span><span style="padding-left: 18px;">專區」)</span></a><br/>
+		<span style="display: none;" id="level-1006">
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t35sb00_1">申請庫藏股買回基本<br/><span style="padding-left: 32px;">資料(已移至「投資<br/></span><span style="padding-left: 32px;">專區」項下「庫藏股<br/></span><span style="padding-left: 32px;">資訊專區」)</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t35sb00_2">申請庫藏買回達一定<br/><span style="padding-left: 32px;">標準(已移至「投資專<br/></span><span style="padding-left: 32px;">區」項下「庫藏股資<br/></span><span style="padding-left: 32px;">訊專區」)</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t35sb00_3">查詢期間屆滿(執行完<br/><span style="padding-left: 32px;">畢)及已辦理消除及轉</span><br/><span style="padding-left: 32px;">讓股份(已移至「投資<br/></span><span style="padding-left: 32px;">專區」項下「庫藏股<br/></span><span style="padding-left: 32px;">資訊專區」)</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t35sb00_4">庫藏股轉讓予員工基<br/><span style="padding-left: 32px;">本資料查詢(已移至「<br/></span><span style="padding-left: 32px;">投資專區」項下「庫<br/></span><span style="padding-left: 32px;">藏股資訊專區」)</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t35sb00_5">董事會決議變更買回<br/><span style="padding-left: 32px;">股份轉讓員工辦法之<br/></span><span style="padding-left: 32px;">公告事項查詢本資料<br/></span><span style="padding-left: 32px;">查詢(已移至「投資<br/></span><span style="padding-left: 32px;">專區」項下「庫藏股<br/></span><span style="padding-left: 32px;">資訊專區」)</span></a><br/>
+			</span>
+		</span>
+-->
+		<img src="images/minus3.gif" id="img-1014"/><a onclick="showhide('level-1014','img-1014')" href="#">買回臺灣存託憑證</a><br/>
+		<span style="display: none;" id="level-1014">
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t35sb08">買回臺灣存託憑證基<br/><span style="padding-left: 32px;">本資料</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t35sb10">買回臺灣存託憑證達<br/><span style="padding-left: 32px;">一定標準</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t35sb09">查詢買回臺灣存託憑<br/><span style="padding-left: 32px;">證期間屆滿或執行完</span><br/><span style="padding-left: 32px;">畢</span></a><br/>
+			</span>
+		</span>
+		<img src="images/pointer.gif"/><a href="bfhtm_q1">募資計畫</a><br/>
+		<img src="images/pointer.gif"/><a href="t05st05">歷年變更登記</a><br/>
+		<img src="images/pointer.gif"/><a href="t16sn02">股權分散表</a><br/>
+		<img src="images/pointer.gif"/><a href="t98sb04">國內海外有價證券轉換<br/><span style="padding-left: 18px;">情形</span></a><br/>
+		<img src="images/minus3.gif" id="img-1011"/><a onclick="showhide('level-1011','img-1011')" href="#">國內有價證券</a><br/>
+		<span style="display: none;" id="level-1011">
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb12">特別股權利基本資料<br/><span style="padding-left: 32px;">查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb05">附認股權特別股基本<br/><span style="padding-left: 32px;">資料查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb06">一般公司債基本資料<br/><span style="padding-left: 32px;">查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb17">一般公司債月報表查<br/><span style="padding-left: 32px;">詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb07">轉換公司債基本資料<br/><span style="padding-left: 32px;">查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb18">轉換公司債月報表查<br/><span style="padding-left: 32px;">詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb08">附認股權公司債基本<br/><span style="padding-left: 32px;">資料查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb19">附認股權公司債月報<br/><span style="padding-left: 32px;">表查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb11">附認股權公司債利率<br/><span style="padding-left: 32px;">查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb20">金融債券月報表查詢</a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t144sb01">分離後認股權憑證發<br/><span style="padding-left: 32px;">行基本資料查詢</span></a><br/>
+			</span>
+		</span>
+		<img src="images/minus3.gif" id="img-1012"/><a onclick="showhide('level-1012','img-1012')" href="#">海外有價證券</a><br/>
+		<span style="display: none;" id="level-1012">
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb03_q1">海外股票基本資料查<br/><span style="padding-left: 32px;">詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb24">海外股票流通餘額報<br/><span style="padding-left: 32px;">表</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb03_q2">海外存託憑證基本資<br/><span style="padding-left: 32px;">料查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb25">海外存託憑證暨其所<br/><span style="padding-left: 32px;">表彰有價證券流通餘</span><br/><span style="padding-left: 32px;">額查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb03_q3">海外一般公司債基本<br/><span style="padding-left: 32px;">資料查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb21">海外一般公司債異動<br/><span style="padding-left: 32px;">情形報表查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb03_q4">海外轉換公司債基本<br/><span style="padding-left: 32px;">資料查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb22">海外轉換公司債異動<br/><span style="padding-left: 32px;">情形報表查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb03_q5">海外附認股權公司債<br/><span style="padding-left: 32px;">基本資料查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb23">海外附認股權公司債<br/><span style="padding-left: 32px;">異動情形報表查詢</span></a><br/>
+			</span>
+		</span>
+		<img src="images/minus3.gif" id="img-1013"/><a onclick="showhide('level-1013','img-1013')" href="#">員工認股權憑證</a><br/>
+		<span style="display: none;" id="level-1013">
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sb09">員工認股權憑證基本<br/><span style="padding-left: 32px;">資料查詢</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t158sb02">員工認股權憑證發行<br/><span style="padding-left: 32px;">次日暨經理人、部門及</span><br/><span style="padding-left: 32px;">分支機構主管取得認</span><br/><span style="padding-left: 32px;">股權憑證情形之申報</span><br/><span style="padding-left: 32px;">資訊</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t158sb05_new">員工認股權憑證發行<br/><span style="padding-left: 32px;">期間屆滿次日暨經理</span><br/><span style="padding-left: 32px;">人、部門及分支機構</span><br/><span style="padding-left: 32px;">主管取得認股權憑證</span><br/><span style="padding-left: 32px;">情形之申報資訊</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t158sb03">員工認股權憑證經理<br/><span style="padding-left: 32px;">人、部門及分支機構</span><br/><span style="padding-left: 32px;">主管認購情形之資訊</span><br/><span style="padding-left: 32px;">－認購次日內申報(</span><br/><span style="padding-left: 32px;">自102年起免申報)</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t158sb04_new">員工認股權憑證經理<br/><span style="padding-left: 32px;">人、部門及分支機構</span><br/><span style="padding-left: 32px;">主管當季認購認股權</span><br/><span style="padding-left: 32px;">情形資料－按季結束</span><br/><span style="padding-left: 32px;">十日內申報</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t47sc18">員工認股權憑證年度<br/><span style="padding-left: 32px;">已執行及未執行資訊</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t158sb01">員工認股權憑證年度<br/><span style="padding-left: 32px;">經理人、部門及分支</span><br/><span style="padding-left: 32px;">機構主管與前十大員</span><br/><span style="padding-left: 32px;">工之取得及認購情形</span><br/><span style="padding-left: 32px;">資訊</span></a><br/>
+			</span>
+		</span>
+		<img src="images/minus3.gif" id="img-1015"/><a onclick="showhide('level-1015','img-1015')" href="#">限制員工權利新股</a><br/>
+		<span style="display: none;" id="level-1015">
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t160sb01">限制員工權利新股發<br/><span style="padding-left: 32px;">行辦法及對股東權益</span><br/><span style="padding-left: 32px;">可能稀釋情形(包含</span><br/><span style="padding-left: 32px;">變更發行辦法、實際</span><br/><span style="padding-left: 32px;">發行資料)</span></a><br/>
+			</span>
+			<span style="padding-left: 15px;">
+				<img src="images/pointer.gif"/><a target="_self" href="t160sb02">員工達成既得條件之解<br/><span style="padding-left: 32px;">除限制資訊</span></a><br/>
+			</span>
+		</span>
+		<img src="images/pointer.gif"/><a href="t111sb02">關係企業組織圖(自102<br/><span style="padding-left: 18px;">年度起免申報)</span></a><br/>
+		<img src="images/pointer.gif"/><a href="t98sb02">僑外及大陸地區投資人<br/><span style="padding-left: 18px;">投資持股情形統計表</span></a><br/>
+		<img src="images/pointer.gif"/><a href="t132sb20">外國發行人之股票、臺<br/><span style="padding-left: 18px;">灣存託憑證、債券流通</span><br/><span style="padding-left: 18px;">情形</span></a><br/>
+
+
+
+	</td>
+</tr>
+</table>
+
+
+</div>
+</td><td valign="top">
+
+<div id='sw'><div id='pic' name="pic"  hspace="0" vspace="0" border="0" align="top" style="cursor: hand; background: url(images/map2.gif) no-repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; height: 324px; width:14px;background-position:-542px 0px;" onclick="closex();"></div></div>
+</td><td valign="top">
+<div id="nav02">
+<div class="t0"></div>
+<div class="t01" id='caption'><br>&nbsp;&nbsp;&nbsp;董監事持股餘額明細資料</div>
+<div id="bar01">
+
+<form id="form1" name="form1" action="/mops/web/ajax_stapap1" onsubmit="return false;" method="post">
+<input type="hidden" id="subMenuID" value="[1,1005]">
+
+<table width="775" border="0" cellpadding="0" cellspacing="0" >
+<tr>
+	
+	<td class="bar01a" valign="top" width="6px"><div style="background: url(images/map2.gif) no-repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; height: 52px; width:6px;background-position:1px 0px;"></div></td>
+	<td class="bar01b" valign="top"><!--
+程式設計師:不明
+程式名稱:query-7.htm
+修改紀錄:(格式=>西元日期+版次+程式設計師)
+2016121211oliver:(T88K)修正Safari自動完成Bug
+2016030610edward:(T88K)移除公司代號搜尋
+-->
+<!-- 最新/歷史資料, 公司代號, 年度, 月份 -->
+		<input type="hidden" name="step" value="1">
+		<input type="hidden" name="firstin" value="ture">
+		<input type="hidden" name="off" value="1">
+		<table border="0" cellspacing="0" cellpadding="2">
+		<input type="hidden" name="keyword4">
+		<input type="hidden" name="code1">
+		<input type="hidden" name="TYPEK2">
+		<input type="hidden" name="checkbtn">
+		<input type="hidden" name="queryName" value="co_id">
+		<input type="hidden" name="inpuType" value="co_id">
+
+		<tr>
+			<input type="hidden" name="TYPEK" value="all">
+			<td><div id="div4" style="background: url(images/map2.gif) no-repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; height: 11px; width:11px;background-position:-345px 0px;"></div></td>
+			<td><div id="search_bar1">
+				<div class="search">
+					<select id="isnew" name="isnew"><option value="true">最新資料</option><option value="false">歷史資料</option></select>
+				</div>
+			</div></td>
+			<td><div id="div4" style="background: url(images/map2.gif) no-repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; height: 11px; width:11px;background-position:-345px 0px;"></div></td><td>公司代號<span style='color:red;'>或簡稱</span></td>
+			<td><div id="search_bar1">
+				<div class="search">
+					<input name="co_id" type="text" class="textbox" id="co_id" value="" size="10" oninput="autoComplete(this.form , 'co_id' , 'auto-complete-data' , event);" onkeydown="{if(event.keyCode==13){document.getElementById('year').focus(); hideDiv2(this); return false;}else{chkKeyDown(document.form1 , this , 'auto-complete-data' , event);}}" onkeyUp="autoComplete(this.form , 'co_id' , 'auto-complete-data' , event);" onblur="setTimeout(function(){hideDiv('auto-complete-data');} , 200);" onClick="this.value='';document.getElementById('oldKeyWord').value='';hideDiv('auto-complete-data');" autocomplete="off"/> 
+				</div>
+			</div></td>
+<!--
+			<td><div id="search_bar1">
+				<div class="search">
+					<input type="button" value="代號查詢" onclick="showsh2('quicksearch9','showTable9');document.form1.step.value='4';action='/mops/web/ajax_quickpgm';ajax1(this.form,'quicksearch9');">
+				</div>
+			</div></td>
+-->
+			<td><div id="div4" style="background: url(images/map2.gif) no-repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; height: 11px; width:11px;background-position:-345px 0px;"></div></td><td>年度</td>
+			<td><div id="search_bar1">
+				<div class="search">
+					<input name="year" type="text" class="textbox" id="year" value="" size="3" maxlength="3" onkeydown="{if(event.keyCode==13){document.getElementById('month').focus(); return false;}}"/> 
+				</div>
+			</div></td>
+			<td><div id="div4" style="background: url(images/map2.gif) no-repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; height: 11px; width:11px;background-position:-345px 0px;"></div></td><td>月份</td>
+			<td><div id="search_bar1">
+				<div class="search">
+					<select name="month" id="month">
+						<option value=""></option>
+						<option value="01">1</option>
+						<option value="02">2</option>
+						<option value="03">3</option>
+						<option value="04">4</option>
+						<option value="05">5</option>
+						<option value="06">6</option>
+						<option value="07">7</option>
+						<option value="08">8</option>
+						<option value="09">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+					</select>
+				</div>
+			</div></td>
+		</tr>
+		</table>
+</td>
+	<td align="right" class="bar01b">&nbsp;</td>
+	<td align="right" class="bar01b" valign="top">
+		<table border="0" cellspacing="0" cellpadding="2">
+		<tr>
+			<td>&nbsp;&nbsp;&nbsp;</td>
+			<td><div id="search_bar1">
+				<div class="search">
+				
+				
+				<input type="button" value=" 查詢 " onclick="javascript:doAction();ajax1(document.form1,'table01');"/>
+				</div>
+			</div></td>
+		</tr>
+		</table>
+	</td>
+	
+	<td class="bar01a" valign="top" width="6px"><div style="background: url(images/map2.gif) no-repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; height: 52px; width:6px;background-position:-72px 0px;"></div></td>
+</tr>
+</table>
+</form>
+
+</div>
+
+
+<div id="table_ess">
+  <table id="showTable9" border="0" cellspacing="0" cellpadding="2">
+    <tr>
+      
+      
+	  <th align="left" width="80px"><a href="javascript:outputNewWindowPrint();"><img src="images/bu_01.gif" alt="列印網頁" border=0></img></a></th><th width="80px"><a href="javascript:outputNewWindow();"><img src="images/bu_02.gif" alt="開新視窗" border=0></img></a></th><th width="80px"><a href="javascript:reportError();"><img src="images/bu_04.gif" alt="問題回報" border=0></img></a></th><th width="80px"><a id='ajax_back_button' href="javascript:void(0)" onclick="ajax_back();" style="visibility:hidden;"></a></th>
+      <th><table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+           
+		  <td width="650px"></td>
+        </tr>
+      </table></th>
+    </tr>
+  </table>
+</div>
+<div id="zoom"><div id="table01"
+
+
+
+
+><center> <table class='noBorder' align='center'><tr><td class='compName'>5835國泰世華商業銀行股份有限公司</td></tr></table><!_co_id_hhc=5835__>
+<center><table class='noBorder'><tr><td class='compName' align='center'>
+<b>
+本資料由　(公開發行公司)
+國泰世華　公司提供</b>
+</td></tr></table>
+</center><div class='reportCont' style='color:red;font-weight:bold;'>內部人若具二種以上身份，每種身份別會揭露同樣股數，勿重複累計</div>
+<table class='noBorder'><tr><td class='reportCont' style='text-align:right !important;'>資料年月:10912</td></tr></table>
+<table class='hasBorder'><tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr><TR class='odd'><TD style='text-align:left !important;'>董事長本人</td><TD align='left'>國泰金融控股股份有限公司</td><TD style='text-align:right !important;'>  5,227,702,586</td><TD style='text-align:right !important;'> 10,698,582,892</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>董事長之法人代表人</td><TD align='left'>郭明鑑</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>副董事長本人</td><TD align='left'>國泰金融控股股份有限公司</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'> 10,698,582,892</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>副董事長之法人代表人</td><TD align='left'>蔡宗翰</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>     10,114,754</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>常務董事本人</td><TD align='left'>國泰金融控股股份有限公司</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'> 10,698,582,892</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>常務董事之法人代表人</td><TD align='left'>李偉正</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         13,944</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>常務董事本人</td><TD align='left'>國泰金融控股股份有限公司</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'> 10,698,582,892</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>常務董事之法人代表人</td><TD align='left'>鄧崇儀</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         22,515</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>董事本人</td><TD align='left'>國泰金融控股股份有限公司</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'> 10,698,582,892</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>董事之法人代表人</td><TD align='left'>仲躋偉</td><TD style='text-align:right !important;'>          3,951</td><TD style='text-align:right !important;'>          4,545</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>董事本人</td><TD align='left'>國泰金融控股股份有限公司</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'> 10,698,582,892</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>董事之法人代表人</td><TD align='left'>蔡宗憲</td><TD style='text-align:right !important;'>      3,159,450</td><TD style='text-align:right !important;'>     10,006,515</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>董事本人</td><TD align='left'>國泰金融控股股份有限公司</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'> 10,698,582,892</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>董事之法人代表人</td><TD align='left'>吳建興</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          7,341</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         17,558</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>董事本人</td><TD align='left'>國泰金融控股股份有限公司</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'> 10,698,582,892</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>董事之法人代表人</td><TD align='left'>李長庚</td><TD style='text-align:right !important;'>          4,224</td><TD style='text-align:right !important;'>        131,729</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>董事本人</td><TD align='left'>國泰金融控股股份有限公司</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'> 10,698,582,892</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>董事之法人代表人</td><TD align='left'>周衛華</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         31,859</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          3,873</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>董事本人</td><TD align='left'>國泰金融控股股份有限公司</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'> 10,698,582,892</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>董事之法人代表人</td><TD align='left'>陳漢國</td><TD style='text-align:right !important;'>         25,969</td><TD style='text-align:right !important;'>         25,969</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>董事本人</td><TD align='left'>國泰金融控股股份有限公司</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'> 10,698,582,892</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>董事之法人代表人</td><TD align='left'>陳晏如</td><TD style='text-align:right !important;'>         39,368</td><TD style='text-align:right !important;'>         48,581</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>獨立董事本人</td><TD align='left'>吳當傑</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>獨立董事本人</td><TD align='left'>苗豐強</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>獨立董事本人</td><TD align='left'>魏永篤</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>監察人本人</td><TD align='left'>國泰金融控股股份有限公司</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'> 10,698,582,892</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>監察人之法人代表人</td><TD align='left'>簡良璘</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          1,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>監察人本人</td><TD align='left'>國泰金融控股股份有限公司</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'> 10,698,582,892</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>監察人之法人代表人</td><TD align='left'>賴耀群</td><TD style='text-align:right !important;'>         23,000</td><TD style='text-align:right !important;'>         23,791</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            533</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>總經理本人</td><TD align='left'>李偉正</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         13,944</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>李素珠</td><TD style='text-align:right !important;'>            321</td><TD style='text-align:right !important;'>         19,381</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            185</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>秦卓民</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         21,459</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            128</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>郭昭貴</td><TD style='text-align:right !important;'>          9,196</td><TD style='text-align:right !important;'>         25,025</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          2,002</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>黃琮萌</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         56,050</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>曹昌禮</td><TD style='text-align:right !important;'>            882</td><TD style='text-align:right !important;'>            321</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>鄧崇儀</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         22,515</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>吳建興</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          7,341</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         17,558</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>鄭有欽</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         24,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>蔡翔馨</td><TD style='text-align:right !important;'>          9,395</td><TD style='text-align:right !important;'>         17,062</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>Kai Yuen KAN</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>張經理</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>         12,171</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>             16</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>王志峰</td><TD style='text-align:right !important;'>         16,052</td><TD style='text-align:right !important;'>         23,947</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          3,287</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>黃允暐</td><TD style='text-align:right !important;'>          1,915</td><TD style='text-align:right !important;'>          1,915</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>姚旭杰</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>洪千惠</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>         11,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>詹景翔</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>張振棟</td><TD style='text-align:right !important;'>         24,235</td><TD style='text-align:right !important;'>         46,993</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         15,315</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>傅伯昇</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          7,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>溫珍瀚</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>苗華本</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            550</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>張發祥</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>副總經理本人</td><TD align='left'>李興明</td><TD style='text-align:right !important;'>            301</td><TD style='text-align:right !important;'>         14,047</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         22,514</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>經理本人</td><TD align='left'>黃芳志</td><TD style='text-align:right !important;'>         49,293</td><TD style='text-align:right !important;'>         49,293</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>胡國瑜</td><TD style='text-align:right !important;'>          5,159</td><TD style='text-align:right !important;'>         10,843</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          2,172</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李玫如</td><TD style='text-align:right !important;'>          6,268</td><TD style='text-align:right !important;'>         11,581</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>杜昶穎</td><TD style='text-align:right !important;'>          5,273</td><TD style='text-align:right !important;'>         10,536</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳海清</td><TD style='text-align:right !important;'>         21,467</td><TD style='text-align:right !important;'>         27,377</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>曹子珍</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         26,041</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>傅龍三</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>廖仁傑</td><TD style='text-align:right !important;'>          2,840</td><TD style='text-align:right !important;'>          9,084</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          1,366</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>盧啟偉</td><TD style='text-align:right !important;'>          1,559</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>張雪紅</td><TD style='text-align:right !important;'>         11,604</td><TD style='text-align:right !important;'>         22,637</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林炳輝</td><TD style='text-align:right !important;'>         10,747</td><TD style='text-align:right !important;'>         27,644</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>        100,870</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林玲玉</td><TD style='text-align:right !important;'>         21,915</td><TD style='text-align:right !important;'>         46,208</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         32,468</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳文凱</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          7,070</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>             34</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>阮桂菁</td><TD style='text-align:right !important;'>            397</td><TD style='text-align:right !important;'>         12,474</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>古永松</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         17,344</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李東發</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         25,533</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳桂珠</td><TD style='text-align:right !important;'>            166</td><TD style='text-align:right !important;'>         17,731</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>卓筱華</td><TD style='text-align:right !important;'>          8,371</td><TD style='text-align:right !important;'>         17,290</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>郭冠伶</td><TD style='text-align:right !important;'>          1,259</td><TD style='text-align:right !important;'>         22,514</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         14,047</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>蔡明男</td><TD style='text-align:right !important;'>          1,666</td><TD style='text-align:right !important;'>         17,949</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>何昇協</td><TD style='text-align:right !important;'>         20,297</td><TD style='text-align:right !important;'>         43,990</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          1,002</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳光鐘</td><TD style='text-align:right !important;'>          4,991</td><TD style='text-align:right !important;'>         22,891</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          8,149</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>熊志豪</td><TD style='text-align:right !important;'>         10,304</td><TD style='text-align:right !important;'>          1,275</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>楊明仁</td><TD style='text-align:right !important;'>             87</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林嘉聰</td><TD style='text-align:right !important;'>          5,664</td><TD style='text-align:right !important;'>             37</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            909</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林延進</td><TD style='text-align:right !important;'>            588</td><TD style='text-align:right !important;'>            827</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳文鳳</td><TD style='text-align:right !important;'>          3,647</td><TD style='text-align:right !important;'>         26,647</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          2,353</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李孝洸</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>楊文賓</td><TD style='text-align:right !important;'>            577</td><TD style='text-align:right !important;'>          6,133</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>許春香</td><TD style='text-align:right !important;'>            176</td><TD style='text-align:right !important;'>         19,038</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              8</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>樊有興</td><TD style='text-align:right !important;'>         12,270</td><TD style='text-align:right !important;'>         34,134</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>蕭志誠</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>許麗萍</td><TD style='text-align:right !important;'>          3,786</td><TD style='text-align:right !important;'>         22,582</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         12,452</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳進財</td><TD style='text-align:right !important;'>          5,213</td><TD style='text-align:right !important;'>         19,266</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>曾仁楷</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李文源</td><TD style='text-align:right !important;'>          4,299</td><TD style='text-align:right !important;'>         21,809</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李新春</td><TD style='text-align:right !important;'>         11,550</td><TD style='text-align:right !important;'>         27,465</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         61,960</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>張簡香蘭</td><TD style='text-align:right !important;'>             67</td><TD style='text-align:right !important;'>             77</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林道皇</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          8,846</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>蕭佑竹</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         14,818</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>葉飛翔</td><TD style='text-align:right !important;'>          4,745</td><TD style='text-align:right !important;'>         10,698</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>鄭啟豪</td><TD style='text-align:right !important;'>          4,000</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>曾朝俊</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         12,054</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>黃金庭</td><TD style='text-align:right !important;'>            585</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李白順</td><TD style='text-align:right !important;'>          1,063</td><TD style='text-align:right !important;'>         10,875</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>謝雅玲</td><TD style='text-align:right !important;'>          2,451</td><TD style='text-align:right !important;'>         20,044</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          1,835</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>黃琴</td><TD style='text-align:right !important;'>         10,269</td><TD style='text-align:right !important;'>          7,192</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          7,056</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>劉俊明</td><TD style='text-align:right !important;'>         43,652</td><TD style='text-align:right !important;'>         15,968</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         59,868</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>蕭義忠</td><TD style='text-align:right !important;'>         63,074</td><TD style='text-align:right !important;'>          6,445</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>        101,406</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林鳳珠</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         77,393</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>阮宇</td><TD style='text-align:right !important;'>         40,336</td><TD style='text-align:right !important;'>         75,188</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            946</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳素妹</td><TD style='text-align:right !important;'>            394</td><TD style='text-align:right !important;'>         16,802</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>江惠櫻</td><TD style='text-align:right !important;'>         69,401</td><TD style='text-align:right !important;'>        121,765</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            839</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳世城</td><TD style='text-align:right !important;'>            894</td><TD style='text-align:right !important;'>         11,221</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>呂宗翰</td><TD style='text-align:right !important;'>             38</td><TD style='text-align:right !important;'>             48</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>羅惠芳</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,836</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>吳炳輝</td><TD style='text-align:right !important;'>            584</td><TD style='text-align:right !important;'>             75</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>歐德清</td><TD style='text-align:right !important;'>         10,039</td><TD style='text-align:right !important;'>         29,620</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         44,381</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>游育祺</td><TD style='text-align:right !important;'>          1,209</td><TD style='text-align:right !important;'>          9,770</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>曾瑞斌</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,110</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>莊玲怡</td><TD style='text-align:right !important;'>            227</td><TD style='text-align:right !important;'>         11,811</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          1,203</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>郭真真</td><TD style='text-align:right !important;'>          1,700</td><TD style='text-align:right !important;'>          6,347</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>余政賢</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         15,428</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          1,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳淑玲</td><TD style='text-align:right !important;'>            192</td><TD style='text-align:right !important;'>         17,447</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>             51</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>蔡明志</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,059</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>郭振特</td><TD style='text-align:right !important;'>             17</td><TD style='text-align:right !important;'>          5,074</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>盧廷生</td><TD style='text-align:right !important;'>          2,067</td><TD style='text-align:right !important;'>         18,660</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>黃勝裕</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>許榮送</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         66,426</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          4,933</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>沈志叡</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>            574</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林俊廷</td><TD style='text-align:right !important;'>          1,306</td><TD style='text-align:right !important;'>         19,566</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>呂偉傑</td><TD style='text-align:right !important;'>         11,846</td><TD style='text-align:right !important;'>         31,943</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>范良榮</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>            310</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          2,209</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳志宏</td><TD style='text-align:right !important;'>         16,408</td><TD style='text-align:right !important;'>            103</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          4,811</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳美玲</td><TD style='text-align:right !important;'>          6,200</td><TD style='text-align:right !important;'>         24,415</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         71,454</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>紀雅慧</td><TD style='text-align:right !important;'>              6</td><TD style='text-align:right !important;'>         17,405</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林文淦</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         14,337</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            225</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>黃麗芬</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,275</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>任中平</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林麗孟</td><TD style='text-align:right !important;'>         12,100</td><TD style='text-align:right !important;'>         41,635</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         13,447</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>吳秀貞</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>余運泉</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         13,676</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          2,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳建裕</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         14,398</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          9,846</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>蕭正祺</td><TD style='text-align:right !important;'>         29,335</td><TD style='text-align:right !important;'>         49,008</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>許維德</td><TD style='text-align:right !important;'>            170</td><TD style='text-align:right !important;'>          8,778</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>邱星筑</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,275</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          3,952</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>蔡永進</td><TD style='text-align:right !important;'>         11,808</td><TD style='text-align:right !important;'>         29,165</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          1,153</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳春安</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>丁美玲</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         17,480</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>吳宬典</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,171</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>江純環</td><TD style='text-align:right !important;'>            564</td><TD style='text-align:right !important;'>         61,103</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            137</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>宗謙誠</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         11,932</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>吳榮欽</td><TD style='text-align:right !important;'>            152</td><TD style='text-align:right !important;'>         17,246</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         12,462</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳信棋</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         14,027</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>曹榮宗</td><TD style='text-align:right !important;'>          4,293</td><TD style='text-align:right !important;'>         11,837</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>王銘君</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         14,410</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳常榮</td><TD style='text-align:right !important;'>         20,540</td><TD style='text-align:right !important;'>         36,690</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>岳世光</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳松星</td><TD style='text-align:right !important;'>         46,927</td><TD style='text-align:right !important;'>         78,187</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         28,860</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>柯逢旭</td><TD style='text-align:right !important;'>            210</td><TD style='text-align:right !important;'>          1,077</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李春霖</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         15,875</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李振中</td><TD style='text-align:right !important;'>          1,197</td><TD style='text-align:right !important;'>         15,536</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          6,514</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳慧芳</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         16,231</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>江敏城</td><TD style='text-align:right !important;'>            142</td><TD style='text-align:right !important;'>         16,110</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>葉雪芬</td><TD style='text-align:right !important;'>          7,396</td><TD style='text-align:right !important;'>         25,293</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>楊翠娟</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,143</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          2,140</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>張誌文</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         14,875</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          3,882</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>洪永靖</td><TD style='text-align:right !important;'>          3,301</td><TD style='text-align:right !important;'>         21,232</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         16,836</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>莊淑君</td><TD style='text-align:right !important;'>          1,171</td><TD style='text-align:right !important;'>          3,229</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>孫家慧</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>            306</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>武秀豪</td><TD style='text-align:right !important;'>          5,271</td><TD style='text-align:right !important;'>         10,206</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林文章</td><TD style='text-align:right !important;'>             63</td><TD style='text-align:right !important;'>            310</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          1,160</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>余淑育</td><TD style='text-align:right !important;'>          1,209</td><TD style='text-align:right !important;'>          8,162</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>             55</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>戴義烜</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         14,970</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>趙子仁</td><TD style='text-align:right !important;'>            496</td><TD style='text-align:right !important;'>         16,243</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>楊鴻彰</td><TD style='text-align:right !important;'>          4,447</td><TD style='text-align:right !important;'>         39,865</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         17,701</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>鄭文瓊</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳健良</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林雄輝</td><TD style='text-align:right !important;'>          2,818</td><TD style='text-align:right !important;'>          2,958</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          1,297</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳衍文</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>紀素燕</td><TD style='text-align:right !important;'>         15,364</td><TD style='text-align:right !important;'>         29,533</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李銘基</td><TD style='text-align:right !important;'>          2,775</td><TD style='text-align:right !important;'>            499</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>許丕暐</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>柯龍豪</td><TD style='text-align:right !important;'>          1,685</td><TD style='text-align:right !important;'>          8,118</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李文鴻</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,103</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林純良</td><TD style='text-align:right !important;'>            875</td><TD style='text-align:right !important;'>            905</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林欣佩</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>潘崇恩</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         61,029</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>宋倩如</td><TD style='text-align:right !important;'>         16,302</td><TD style='text-align:right !important;'>         22,302</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳西就</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>顏敏修</td><TD style='text-align:right !important;'>          1,731</td><TD style='text-align:right !important;'>          6,731</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          3,502</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>黃耀逸</td><TD style='text-align:right !important;'>          1,415</td><TD style='text-align:right !important;'>          6,704</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>鄂季珍</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>劉青松</td><TD style='text-align:right !important;'>          1,350</td><TD style='text-align:right !important;'>          6,573</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          1,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳明良</td><TD style='text-align:right !important;'>          1,369</td><TD style='text-align:right !important;'>          1,369</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>游千慧</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>楊麗玲</td><TD style='text-align:right !important;'>          2,265</td><TD style='text-align:right !important;'>          2,583</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>藍雅惠</td><TD style='text-align:right !important;'>            611</td><TD style='text-align:right !important;'>            735</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>宋仕林</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,870</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>Setio Soejanto</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>郭美娥</td><TD style='text-align:right !important;'>          6,828</td><TD style='text-align:right !important;'>         13,175</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>         10,813</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>葉展皓</td><TD style='text-align:right !important;'>          2,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳呈祿</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,258</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>劉錫仁</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳俊溢</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林景裕</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林柄蒼</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李恭賓</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>薛毓騰</td><TD style='text-align:right !important;'>            956</td><TD style='text-align:right !important;'>          6,126</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>蔡淑惠</td><TD style='text-align:right !important;'>          1,336</td><TD style='text-align:right !important;'>          6,519</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李宛靜</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>吳郁芃</td><TD style='text-align:right !important;'>          6,000</td><TD style='text-align:right !important;'>         11,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          3,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>沈佳靜</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳建達</td><TD style='text-align:right !important;'>          1,442</td><TD style='text-align:right !important;'>          6,470</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>許照基</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,206</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>黃建國</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>花祺雅</td><TD style='text-align:right !important;'>             43</td><TD style='text-align:right !important;'>             43</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李榮悉</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>黃吉良</td><TD style='text-align:right !important;'>          5,023</td><TD style='text-align:right !important;'>         10,195</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳冠學</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳君萍</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          5,692</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳秋錦</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>張智巽</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>黃仁毅</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          6,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>劉人銘</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          1,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林家慶</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳建銘</td><TD style='text-align:right !important;'>          1,080</td><TD style='text-align:right !important;'>          6,220</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>             51</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>吳貴?</td><TD style='text-align:right !important;'>            490</td><TD style='text-align:right !important;'>          6,490</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>曾建璋</td><TD style='text-align:right !important;'>          1,376</td><TD style='text-align:right !important;'>          6,457</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>張齊家</td><TD style='text-align:right !important;'>            502</td><TD style='text-align:right !important;'>            502</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>辜志雄</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李忠哲</td><TD style='text-align:right !important;'>          1,000</td><TD style='text-align:right !important;'>          6,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>王堯德</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          4,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>鄭世仁</td><TD style='text-align:right !important;'>          1,191</td><TD style='text-align:right !important;'>          3,191</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            362</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳泑琍</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>馮麗華</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          4,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          2,068</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>賴俊偉</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>彭志麒</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>         10,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳正諭</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳朝琪</td><TD style='text-align:right !important;'>            107</td><TD style='text-align:right !important;'>            110</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            256</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>周秀娟</td><TD style='text-align:right !important;'>          1,454</td><TD style='text-align:right !important;'>          6,675</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>吳國揚</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>余政寬</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            311</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>黃志同</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,689</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            708</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林庭槐</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>蘇裕清</td><TD style='text-align:right !important;'>          1,297</td><TD style='text-align:right !important;'>          6,444</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>鍾志君</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李世偉</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          4,531</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林煒翔</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>祝金鏞</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>許名綺</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          4,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>蔡弘孝</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>蔡篤恆</td><TD style='text-align:right !important;'>          3,826</td><TD style='text-align:right !important;'>          3,826</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          3,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>劉奕嫚</td><TD style='text-align:right !important;'>          6,986</td><TD style='text-align:right !important;'>          6,986</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>洪秋玲</td><TD style='text-align:right !important;'>          8,821</td><TD style='text-align:right !important;'>          8,821</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          3,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>陳宜棓</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          9,318</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>施能哲</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林青慧</td><TD style='text-align:right !important;'>            324</td><TD style='text-align:right !important;'>            324</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林宜靜</td><TD style='text-align:right !important;'>          9,000</td><TD style='text-align:right !important;'>          4,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>蘇以哲</td><TD style='text-align:right !important;'>          5,345</td><TD style='text-align:right !important;'>          5,345</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>施明輝</td><TD style='text-align:right !important;'>          4,064</td><TD style='text-align:right !important;'>          4,064</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          3,457</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林耕平</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>林音綺</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>閻正悰</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>吳香妮</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>          5,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>葉育成</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>葉繼仁</td><TD style='text-align:right !important;'>          3,000</td><TD style='text-align:right !important;'>          3,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>蘇啟華</td><TD style='text-align:right !important;'>          9,495</td><TD style='text-align:right !important;'>          9,495</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<tr class='tblHead'><td valign=top nowrap rowspan=2>職稱</td>
+<td valign=top nowrap rowspan=2>姓名</td>
+<td valign=top nowrap rowspan=2>選任時持股</td>
+<td valign=top nowrap rowspan=2>目前持股</td>
+<td valign=top nowrap rowspan=2>設質股數</td>
+<td valign=top nowrap rowspan=2>設質股數佔<br>持股比例</td>
+<td valign=top nowrap colspan=3>配偶、未成年子女及<br>利用他人名義持有部份</td>
+</tr><tr class='tblHead'><td valign=top nowrap >內部人關係人<br>目前持股合計</td>
+<td valign=top nowrap >設質股數</td>
+<td valign=top nowrap >設質比例</td>
+</tr>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>李蕙婷</td><TD style='text-align:right !important;'>         20,334</td><TD style='text-align:right !important;'>         20,334</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>盧玉蘭</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>胡麟書</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>彭建維</td><TD style='text-align:right !important;'>          4,171</td><TD style='text-align:right !important;'>          4,171</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          1,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>雷蕾</td><TD style='text-align:right !important;'>          2,107</td><TD style='text-align:right !important;'>          2,107</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>吳佩紋</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>          9,673</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>協理本人</td><TD align='left'>葉高</td><TD style='text-align:right !important;'>          3,360</td><TD style='text-align:right !important;'>          3,360</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            183</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>大股東本人</td><TD align='left'>國泰金融控股股份有限公司</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'> 10,698,582,892</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='odd'><TD style='text-align:left !important;'>財務部門主管本人</td><TD align='left'>詹景翔</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>          6,000</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+<TR class='even'><TD style='text-align:left !important;'>會計部門主管本人</td><TD align='left'>黃志同</td><TD style='text-align:right !important;'>          1,689</td><TD style='text-align:right !important;'>          6,689</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td><TD style='text-align:right !important;'>            708</td><TD style='text-align:right !important;'>              0</td><TD style='text-align:right !important;'>0.00%</td></TR>
+</table> <TABLE class='noBorder' align=center>
+<TR>
+<TD class='reportCont' style='text-align:left !important;'>非獨立董事持股合計</TD>
+<TD class='reportCont' style='text-align:right !important;'> 10,698,582,892</TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD class='reportCont' style='text-align:left !important;'>非獨立董事持股設質合計</TD>
+<TD class='reportCont' style='text-align:right !important;'>              0</TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD class='reportCont' style='text-align:left !important;'>非獨立董事持股設質比例</TD>
+<TD>0.00%</TD>
+</TR>
+<TR>
+<TD class='reportCont' style='text-align:left !important;'>獨立董事持股合計</TD>
+<TD class='reportCont' style='text-align:right !important;'>              0</TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD class='reportCont' style='text-align:left !important;'>獨立董事持股設質合計</TD>
+<TD class='reportCont' style='text-align:right !important;'>              0</TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD class='reportCont' style='text-align:left !important;'>獨立董事持股設質比例</TD>
+<TD class='reportCont' >0.00%</TD>
+</TR>
+<TR>
+<TD class='reportCont' style='text-align:left !important;'>非獨立監察人持股合計</TD>
+<TD class='reportCont' style='text-align:right !important;'> 10,698,582,892</TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD class='reportCont' style='text-align:left !important;'>非獨立監察人持股設質合計</TD>
+<TD class='reportCont' style='text-align:right !important;'>              0</TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD class='reportCont' style='text-align:left !important;'>非獨立監察人持股設質比例</TD>
+<TD>0.00%</TD>
+</TR>
+<TR>
+<TD class='reportCont' style='text-align:left !important;'>獨立監察人持股合計</TD>
+<TD class='reportCont' style='text-align:right !important;'>              0</TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD class='reportCont' style='text-align:left !important;'>獨立監察人持股設質合計</TD>
+<TD class='reportCont' style='text-align:right !important;'>              0</TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD class='reportCont' style='text-align:left !important;'>獨立監察人持股設質比例</TD>
+<TD class='reportCont' >0.00%</TD>
+</TR>
+<TR>
+<TD class='reportCont' style='text-align:left !important;'>非獨立董監持股合計</TD>
+<TD class='reportCont' style='text-align:right !important;'> 10,698,582,892</TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD class='reportCont' style='text-align:left !important;'>非獨立董監持股設質合計</TD>
+<TD class='reportCont' style='text-align:right !important;'>              0</TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD class='reportCont' style='text-align:left !important;'>非獨立董監持股設質比例</TD>
+<TD>0.00%</TD>
+</TR>
+<TR>
+<TD class='reportCont' style='text-align:left !important;'>獨立董監持股合計</TD>
+<TD class='reportCont' style='text-align:right !important;'>              0</TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD class='reportCont' style='text-align:left !important;'>獨立董監持股設質合計</TD>
+<TD class='reportCont' style='text-align:right !important;'>              0</TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD class='reportCont' style='text-align:left !important;'>獨立董監持股設質比例</TD>
+<TD>0.00%</TD>
+</TR>
+<TR>
+<TD class='reportCont' style='text-align:left !important;'>全體董監持股合計</TD>
+<TD class='reportCont' style='text-align:right !important;'> 10,698,582,892</TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD class='reportCont' style='text-align:left !important;'>全體董監持股設質合計</TD>
+<TD class='reportCont' style='text-align:right !important;'>              0</TD>
+<TD>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+<TD class='reportCont' style='text-align:left !important;'>全體董監持股設質比例</TD>
+<TD>0.00%</TD>
+</TR>
+</TABLE><BR><BR>
+<div class='note' style='padding-left:2em;text-indent:-2em;text-align:left;width:100%;white-space:nowrap;'>註：
+<br>
+1.本表所列「選任時持股」及「目前持股」股數不包括<font color='red'>特別股股數</font>及保留運用決定權信託股數。
+<br>
+2.本表所列「設質股數佔持股比例」及「設質比例」計算方式為：設質股數/（目前持股+保留運用決定權信託股數）。
+<br>
+3.<font color='red'>「特別股」</font>及「保留運用決定權信託股數」請參照「內部人持股異動事後申報表」。
+</div>
+</div>
+  <br></div>
+</td></tr></table>
+</DIV></tr>
+</table>
+</div>
+
+
+<div id="footer">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <th>
+		<div class="text1" id="text1" align="center">
+			<a href='https://www.stockvote.com.tw/' target='_blank'>電子投票</a>│
+			<a href='http://www.sfb.gov.tw/Layout/main_ch/index.aspx?frame=5' target='_blank'>不繼續公開發行</a>│
+			<a href='/server-java/t39sb01' target='_blank'>市場公告</a>│
+			
+			
+			<a href='https://www.sfi.org.tw/cga/cga1' target='_blank'>公司治理評鑑</a>│
+
+
+			
+			
+			
+			<a href='/mops/web/t146sb08'>網站地圖</a>│
+			<a href='/nas/MOPS_HandBook.doc' target='_MOPS_handbook'>網站使用說明</a>
+			<div class="text1" id="text1" align="center" height="80">
+			<a href=#>投資人服務中心(02)2792-8188</a> <u><a href='http://Suggestionbox.twse.com.tw' target='_blank'>聯絡我們</a></u>
+			</div>
+
+			
+			
+			
+			
+			
+			
+			
+			
+		</div>
+	</th>
+  </tr>
+</table>
+</div>
+</td></tr></table></center>
+<div id="quicksearch9" style="position:absolute;z-index:3;overflow:auto;width:620px;max-height:200px;display:none;"></div>
+</body>
+
+
+<script>
+function doAction() {
+	if (document.form1.step!=null && document.form1.step!=undefined && document.form1.step.value!='')
+	{
+		if (document.form1.step.value!='0')
+		{
+			document.form1.step.value='1';
+		}
+	}
+	if (document.form1.firstin!=null && document.form1.firstin!=undefined && document.form1.firstin.value!='')
+	{
+		document.form1.firstin.value='1';
+	}
+	var name=document.fh.funcName.value;
+	document.form1.action='/mops/web/ajax_'+name;
+}
+function checkAutoRunScript(){
+	if (document.autoForm!=null && document.autoForm!=undefined && document.autoForm.run.value==''){
+		document.autoForm.run.value='Y';
+		ajax1(document.autoForm,'table01');
+	}
+
+	if (document.autoRunScript!=null && document.autoRunScript!=undefined && document.autoRunScript.run.value!=''){
+		var s = document.autoRunScript.run.value;
+		document.autoRunScript.run.value = '';
+		new function(){
+			eval(s);
+		};
+	}
+
+}
+
+setInterval("checkAutoRunScript()",100);
+</script>
+</html>
